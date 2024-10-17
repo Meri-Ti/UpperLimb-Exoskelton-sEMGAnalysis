@@ -1,4 +1,4 @@
-# EMG and Motion Tools Data Analysis
+# sEMG Data Analysis
 
 This repository contains MATLAB live scripts for analyzing sEMG (Electromyography) and motion data collected from three different subjects (`S1`, `S2`, and `S3`). Each subject has a dedicated folder that contains the data and scripts specific to their sessions.
 
