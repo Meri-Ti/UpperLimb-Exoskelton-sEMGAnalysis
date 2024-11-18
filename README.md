@@ -1,6 +1,6 @@
 # sEMG Data Analysis
 
-This repository contains MATLAB live scripts for analyzing sEMG (Electromyography) and motion data collected from three different subjects (`S1`, `S2`, and `S3`). Each subject has a dedicated folder that contains the data and scripts specific to their sessions.
+This repository contains MATLAB live scripts for analyzing sEMG (surface Electromyography) signals collected from three different subjects (`S1`, `S2`, and `S3`). Each subject has a dedicated folder that contains the data and scripts specific to their acquisition sessions.
 
 ## Repository Structure
 
@@ -14,7 +14,7 @@ The repository is organized into three main folders, each corresponding to a dif
 
 Each folder (`S1`, `S2`, `S3`) contains the following files:
 
-- **`sEMG_S1.mlx`, `sEMG_S2.mlx`, `sEMG_S3.mlx`**: MATLAB live scripts used to process and analyze the surface electromyography (sEMG) data for each subject. The scripts also supports the analysis of various angles (30°, 60°, 90°) for horizontal abduction motions, in addition to the different modes for the upper limb exoskeleton usage (Assistance, Resistance, and Transparency). All the plot are stored in SVG file for a good resolution and the figures of the Pect. Major muscle have a higher dimension since it has been taken as the sample muscle for the Thesis purpose. 
+- **`sEMG_S1.mlx`, `sEMG_S2.mlx`, `sEMG_S3.mlx`**: MATLAB live scripts used to process and analyze the sEMG data for each subject. The scripts also supports the analysis of various angles (30°, 60°, 90°) for horizontal abduction exercises, in addition to the different modes for the upper limb exoskeleton usage (Assistance, Resistance, and Transparency). All the plot are stored in SVG file for a good resolution and the figures of the Pect. Major muscle have a higher dimension since it has been taken as the sample muscle for the Thesis purpose. 
 - **Collected Data Files**: Raw data collected from EMG and Motion Tools software (these files are unique for each subject and stored in folders named accordingly, respectively S1_C3D, S1_ASCIII etc...).
 
 ## Data Collection Tools
@@ -22,7 +22,7 @@ Each folder (`S1`, `S2`, `S3`) contains the following files:
 The data has been collected using the following tools:
 
 1. **sEMG Electrodes**: Used for capturing electrical activity produced by skeletal muscles.
-2. **EMG and Motion Tools software**: Used for tracking motion data (such as accelerometer and gyroscope data) during the experiments.
+2. **EMG and Motion Tools** software: Used for tracking motion data (such as accelerometer and gyroscope data) during the experiments.
 
 ## How to Use
 
